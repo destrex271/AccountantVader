@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html data-n-head="%7B%22lang%22:%7B%221%22:%22en%22%7D%7D" lang="en">
+ <head>
+  <title>
+   Simulator - Investopedia Stock Simulator
+  </title>
+  <meta charset="utf-8" data-n-head="1"/>
+  <meta content="width=device-width, initial-scale=1" data-n-head="1" name="viewport"/>
+  <meta content="" data-hid="description" data-n-head="1" name="description"/>
+  <meta content="#323A56" data-n-head="1" name="theme-color"/>
+  <link data-n-head="1" href="https://www.investopedia.com/favicon.ico" rel="icon" type="image/x-icon"/>
+  <script async="" data-n-head="1" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js">
+  </script>
+  <script data-hid="gtm-script" data-n-head="1">
+   if(!window._gtm_init){window._gtm_init=1;(function(w,n,d,m,e,p){w[d]=(w[d]==1||n[d]=='yes'||n[d]==1||n[m]==1||(w[e]&&w[e][p]&&w[e][p]()))?1:0})(window,navigator,'doNotTrack','msDoNotTrack','external','msTrackingProtectionEnabled');(function(w,d,s,l,x,y){w[x]={};w._gtm_inject=function(i){if(w.doNotTrack||w[x][i])return;w[x][i]=1;w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','_gtm_ids','_gtm_inject')}
+  </script>
+  <base href="/simulator/"/>
+  <link as="script" href="https://i-n.investopedia.com/1b991c7.js" rel="preload"/>
+  <link as="script" href="https://i-n.investopedia.com/fef0402.js" rel="preload"/>
+  <link as="script" href="https://i-n.investopedia.com/831e036.js" rel="preload"/>
+  <link as="script" href="https://i-n.investopedia.com/4029973.js" rel="preload"/>
+ </head>
+ <body>
+  <noscript data-hid="gtm-noscript" data-n-head="1" data-pbody="true">
+  </noscript>
+  <div id="__nuxt">
+   <style>
+    body, html, #__nuxt {  background: #323a56;  width: 100%;  height: 100%;  display: flex;  flex-direction: column;  justify-content: center;  align-items: center;  margin: 0;  padding: 0;}.logo {  width: 200px;}.loader {  position: relative;  width: 75px;  height: 100px;}.loader__bar {  position: absolute;  bottom: 0;  width: 10px;  height: 50%;  background: white;  transform-origin: center bottom;  box-shadow: 1px 1px 0 rgba(0,0,0,.2);}.loader__bar:nth-child(1) {  left: 0px;  transform: scale(1, 0.2);  animation: barUp1 4s infinite;}.loader__bar:nth-child(2) {  left: 15px;  transform: scale(1, 0.4);  animation: barUp2 4s infinite;}.loader__bar:nth-child(3) {  left: 30px;  transform: scale(1, 0.6);  animation: barUp3 4s infinite;}.loader__bar:nth-child(4) {  left: 45px;  transform: scale(1, 0.8);  animation: barUp4 4s infinite;}.loader__bar:nth-child(5) {  left: 60px;  transform: scale(1, 1);  animation: barUp5 4s infinite;}.loader__ball {  position: absolute;  bottom: 10px;  left: 0;  width: 10px;  height: 10px;  background: white;  border-radius: 50%;  animation: ball 4s infinite;}@keyframes ball {  0% {transform: translate(0, 0);  }  5% {transform: translate(8px, -14px);  }  10% {transform: translate(15px, -10px)  }  17% {transform: translate(23px, -24px)  }  20% {transform: translate(30px, -20px)  }  27% {transform: translate(38px, -34px)  }  30% {transform: translate(45px, -30px)  }  37% {transform: translate(53px, -44px)  }  40% {transform: translate(60px, -40px)  }  50% {transform: translate(60px, 0)  }  57% {transform: translate(53px, -14px)  }  60% {transform: translate(45px, -10px)  }  67% {transform: translate(37px, -24px)  }  70% {transform: translate(30px, -20px)  }  77% {transform: translate(22px, -34px)  }  80% {transform: translate(15px, -30px)  }  87% {transform: translate(7px, -44px)  }  90% {transform: translate(0, -40px)  }  100% {transform: translate(0, 0);  }}@keyframes barUp1 {  0% {transform: scale(1, .2);  }  40%{transform: scale(1, .2);  }  50% {transform: scale(1, 1);  }  90% {transform: scale(1,1);  }  100% {transform: scale(1,.2);  }}@keyframes barUp2 {  0% {transform: scale(1, .4);  }  40% {transform: scale(1, .4);  }  50% {transform: scale(1, .8);  }  90% {transform: scale(1, .8);  }  100% {transform: scale(1, .4);  }}@keyframes barUp3 {  0% {transform: scale(1, .6);  }  100% {transform: scale(1, .6);  }}@keyframes barUp4 {  0% {transform: scale(1, .8);  }  40% {transform: scale(1, .8);  }  50% {transform: scale(1, .4);  }  90% {transform: scale(1, .4);  }  100% {transform: scale(1, .8);  }}@keyframes barUp5 {  0% {transform: scale(1, 1);  }  40% {transform: scale(1, 1);  }  50% {transform: scale(1, .2);  }  90% {transform: scale(1, .2);  }  100% {transform: scale(1, 1);  }}
+   </style>
+   <svg class="logo" viewbox="0 0 574.04 89.64" xmlns="http://www.w3.org/2000/svg">
+    <path d="M33.6 24.8l6.33 4-2.42 22.87L71.57 30.9a36 36 0 1 0-70.5 13.77z" fill="#c5dcff">
+    </path>
+    <path d="M34.64 63.21l-6.33-4 2.42-22.86L4.09 52.61a36 36 0 0 0 67.53-12z" fill="#c5dcff">
+    </path>
+    <circle cx="37.81" cy="16.42" fill="#323a56" r="5.09">
+    </circle>
+    <path d="M89.9 69l8.94-.13V5.69l-8.94.13V69zM132.66 25.1c-4 0-10.81 1.78-13.83 6.61V26h-8.44v43h8.44V45.73c0-8.48 6.4-12.28 12.74-12.28 6 0 10 4.5 10 11.19V69H150V44.19c0-6.11-1.68-11.11-5-14.45-3-3.04-7.27-4.64-12.34-4.64zM175.38 57.94l-12.91-31.93h-9.03L171.3 69h8.08l17.95-42.99h-9.12l-12.83 31.93zM332.89 25.1c-13 0-22.45 9.36-22.45 22.27s9.66 22.54 22.45 22.54a22 22 0 0 0 22.55-22.54c0-12.91-9.44-22.27-22.55-22.27zm0 36.83C325 61.93 319 55.67 319 47.37c0-8.15 6-14.29 13.92-14.29A13.89 13.89 0 0 1 347 47.37c0 8.3-6.07 14.56-14.11 14.56zM384.58 25.1c-6.23 0-11.93 2.71-14.83 7V26h-8.44v63.64h8.44V63c2.88 4.33 8.37 6.88 14.92 6.88 12.43 0 21.45-9.4 21.45-22.36s-9.06-22.42-21.54-22.42zm-.73 36.83a14.06 14.06 0 0 1-14.1-14.29c0-8.3 6.06-14.56 14.1-14.56 7.71 0 13.74 6.4 13.74 14.56s-5.91 14.29-13.74 14.29zM494.15 32c-2.88-4.33-8.37-6.88-14.92-6.88-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45c6.23 0 11.93-2.71 14.83-7V69h8.44V2.82h-8.44zM480 61.93c-7.66 0-13.65-6.4-13.65-14.56s5.83-14.29 13.65-14.29a14.1 14.1 0 0 1 14.19 14.29c-.04 7.06-5.01 14.56-14.19 14.56zM513.27 26.01h8.44V69h-8.44zM573.33 26h-8.44v5c-3-3.74-8.17-5.92-14.21-5.92H550c-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45h.71c5.75 0 11.06-2.32 14.12-6V69H574V26zm-22.27 35.9c-7.49-.2-13.3-6.5-13.3-14.54s5.7-14.09 13.3-14.27a14.08 14.08 0 0 1 13.83 14.27c0 6.97-4.89 14.35-13.83 14.55zM262.32 42.72c-4.41-1.13-7.53-2.14-7.53-4.89 0-3.09 3.12-5.25 7.6-5.25a14.82 14.82 0 0 1 8.93 3.22l.21.16 4.53-6.28-.2-.16a21.88 21.88 0 0 0-14-4.61c-7.61 0-15.8 4.19-15.8 13.37 0 6.4 5.34 9.52 9.81 11 1.5.5 3 .89 4.52 1.27 4.67 1.2 8.71 2.24 8.71 5.88 0 2.55-2.57 5.25-7.33 5.25a20.55 20.55 0 0 1-12.36-4.57l-.22-.16-4.52 6.46.19.15a26.74 26.74 0 0 0 17.1 5.79c7.7 0 15.89-4.59 15.89-13.1S270 44.69 262.32 42.72zM452.29 46.77C452.29 33.94 444 25 432 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.4c7.43-.13 12.28-1.36 18.17-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 432.3 61c-6.52 0-11.66-4.78-12.87-11.93L452 49h.24v-.24a7.17 7.17 0 0 0 0-1.17c.06-.16.05-.38.05-.82zm-31.57-4.34c1.11-6.21 5.18-9.63 11.49-9.63 6.11 0 10.27 3.59 11.19 9.63zM240 46.77C240 33.94 231.65 25 219.73 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.39c7.44-.13 12.29-1.36 18.18-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 220 61c-6.53 0-11.66-4.78-12.87-11.93l32.56-.07h.25v-.24a8.65 8.65 0 0 0 0-1.17c.06-.16.06-.38.06-.82zm-31.6-4.34c1.12-6.21 5.19-9.63 11.5-9.63 6.11 0 10.27 3.59 11.19 9.63zM305.5 60.07a12.75 12.75 0 0 1-3.56.43 7 7 0 0 1-5.23-2c-.92-1.08-1.11-2.74-1.11-4.89V33.35h12V26h-12V12.08h-8.45V26h-4.64v7.35h4.64v19.82c0 4.77 1.06 8.28 3.24 10.72a14.46 14.46 0 0 0 11.31 4.74 21.82 21.82 0 0 0 6.27-.86l.25-.08-2.47-7.69zM517.49 5.41a5.39 5.39 0 0 0-5.4 5.49 5.32 5.32 0 0 0 5.4 5.4 5.39 5.39 0 0 0 5.51-5.4 5.47 5.47 0 0 0-5.51-5.49z" fill="#fff">
+    </path>
+   </svg>
+   <div class="loader">
+    <div class="loader__bar">
+    </div>
+    <div class="loader__bar">
+    </div>
+    <div class="loader__bar">
+    </div>
+    <div class="loader__bar">
+    </div>
+    <div class="loader__bar">
+    </div>
+    <div class="loader__ball">
+    </div>
+   </div>
+  </div>
+  <script>
+   window.__NUXT__=(function(a){return {config:{isProd:true,publicPath:"https:\u002F\u002Fi-n.investopedia.com",basePath:a,oneTrustKey:"6f11c6b6-370e-4395-b5d8-ad975c52c7c1",gtm:{id:"GTM-NKFNNKZ"},dfp:{id:"479"},sentry:{config:{environment:"prod"}},_app:{basePath:a,assetsPath:"\u002F",cdnURL:"https:\u002F\u002Fi-n.investopedia.com\u002F"},urls:{dashcash:["https:\u002F\u002Fdashcash-prod.a-ue1.investopedia.com"],"keycloak-dotdash":["https:\u002F\u002Fkeycloak-dotdash-prod.a-ue1.dotdash.com"]}}}}("\u002Fsimulator\u002F"))
+  </script>
+  <script src="https://i-n.investopedia.com/1b991c7.js">
+  </script>
+  <script src="https://i-n.investopedia.com/fef0402.js">
+  </script>
+  <script src="https://i-n.investopedia.com/831e036.js">
+  </script>
+  <script src="https://i-n.investopedia.com/4029973.js">
+  </script>
+ </body>
+</html>
